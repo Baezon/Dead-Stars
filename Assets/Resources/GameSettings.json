@@ -1,0 +1,102 @@
+{GameSettings:
+	{FogOfWar: false,
+	EmpireList: ["Autocracy","Republic","Sovereignty","Imperium","Conglomerate"]},
+		
+SystemNames:
+	{firsthalf:["Alpha", "Beta", "Gamma", "Delta", "Epsilon", "Zeta", "Eta", "Theta", "Kappa", "Lambda", "Rho", "Sigma", "Tau", "Upsilon", "Phi"],
+	secondhalf:["Centauri", "Ceti", "Serpentis", "Pictoris", "Pegasi", "Cygni", "Aurigae", "Carinae", "Draconis", "Velorum", "Tauri", "Cancri",
+		"Antilae", "Cephei", "Corvi", "Eridani", "Hydrae", "Reticuli", "Sagittae", "Scorpii", "Sculptoris", "Virginis", "Trianguli"],
+	alone:["Altair", "Capella", "Arcturus", "Sirius", "Procyon", "Achernar", "Acrux", "Adhara", "Aldebaran", "Algol", "Antares", "Arrakis",
+		"Canopus", "Castor", "Deneb", "Etamin", "Mizar", "Polaris", "Regulus", "Rigel", "Terebellum", "Vega", "Spica", "Procyon", "Pollux", "Betelgeuse",
+		"Acamar", "Albireo", "Alcyone", "Alderamin", "Algenib", "Alioth", "Alkaid", "Alphard", "Atria", "Avior", "Bellatrix", "Caph", "Cor Caroli",
+		"Diphda", "Dubhe", "Elnath", "Eltanin", "Fomalhaut", "Gacrux", "Hadar", "Hamal", "Kocab", "Icarus", "Borealis", "Merak", "Miaplacidus", "Mimosa",
+		"Mirach", "Pegasus", "Ruchbach", "Sabik", "Scheat", "Seginus", "Sheratan", "Hyades", "Wezen", "Puppis", "Pyxis", "Pictor", "Phoenix", "Reticulum",
+		"Scorpius", "Sculptor", "Scutum", "Serpens", "Sextans", "Volans", "Aquila", "Apus", "Auriga", "Bootes", "Caselum", "Cassiopeia", "Cepheus",
+		"Cetus", "Corvus", "Cygnus", "Delphinus", "Draco", "Eridanus", "Fornax", "Hydra", "Lacerta", "Lynx", "Lyra", "Musca", "Octans", "Ophiuchus",
+		"Perseus", "Sagitta", "Carina", "Circinus", "Crux", "Equuleus", "Hercules", "Aquarius", "Aries", "Cancer", "Capricornus", "Gemini", "Leo",
+		"Libra", "Orion", "Pisces", "Scorpius", "Taurus", "Virgo", "Triangulum"]
+		},
+Empires:
+	{Autocracy:
+		{Color: [255,255,255],
+		PrefixName: "A",
+		Adjectival: "Autocratic",
+		ShipNames:
+			{Capital: ["Centurion", "Legionnaire"]
+			Cruiser:null,
+			Destroyer:null},
+		GrowthRate:2,
+		ShipPrefix:"",
+		ColonizationPenalty:0.3},
+	Republic:
+		{Color: [0,169,0],
+		PrefixName: "R",
+		Adjectival: "Republic",
+		ShipNames:
+			{Capital:null,
+			Cruiser:null,
+			Destroyer:null},
+		GrowthRate:2.2,
+		ShipPrefix:"RDF ",
+		ColonizationPenalty:0.3},
+	Sovereignty:
+		{Color: [255,157,0],
+		PrefixName: "S",
+		Adjectival: "Sovereign",
+		ShipNames:
+			{Capital:["Victory", "Courageous", "Indefatigable", "Formidable", "Monarch", "Audacious"],
+			Cruiser:null,
+			Destroyer:null},
+		GrowthRate:1.8,
+		ShipPrefix:"",
+		ColonizationPenalty:0.3},
+	Imperium:
+		{Color: [180,0,255],
+		PrefixName: "I",
+		Adjectival: "Imperial",
+		ShipNames:
+			{Capital:["Radiance", "Virtue", "Piety", "Charity", "Luminescence", "Effulgent", "Splendor", "Incandescent", "Hope", "Destiny", "Fate", "Providence", "Divinity", "Essence", "Quintessence", "Paragon", "Affinity", "Apotheosis", "Exemplar", "Templar", "Crusader", "Paladin", "Vindiator", "Guardian", "Champion", "Brilliance", "Eminent", "Zealous", "Sanctity", "Chastity","Dawn","Dusk","Twilight"],
+			Cruiser:null,
+			Destroyer:null},
+		GrowthRate:2.1,
+		ShipPrefix:"HIA ",
+		ColonizationPenalty:0.3},
+	Conglomerate:
+		{Color: [122,183,255],
+		PrefixName: "C",
+		Adjectival: "Conglomerate",
+		ShipNames:
+			{Capital:null,
+			Cruiser:null,
+			Destroyer:null},
+		GrowthRate:1.9,
+		ShipPrefix:"",
+		ColonizationPenalty:0.3}}
+ExtraEffects: {
+	SizeCrew: [["Size","$1"], ["Crew","$1"]],
+	BIGGER: [["SizeCrew",5], ["Power",5]]
+},
+TechTree: {
+	Weaponry: [{
+		Name: "Standard weapon"
+		Cost: 123,
+		ActiveSubsystem: "StandardWeapon",
+		Effects: [["Damage",10], ["BIGGER"]],
+		SubTechs: [
+			{Name: "Standard weapon accuracy"
+			Cost: 123,
+			Effects: [["Accuracy",10], ["SizeCrew",5]]},
+			{Name: "Standard weapon efficiency"
+			Cost: 123,
+			Effects: [["PowerCost",-10], ["SizeCrew",-10]]},
+			{Name: "Standard weapon damage resistance"
+			Cost: 123,
+			Effects: ["DamageResist",7]}
+		]}],
+	Propulsion:[],
+	Energy:[],
+	Defense:[],
+	Electronics:[],
+	Structure:[],
+	Fightercraft:[]}
+}

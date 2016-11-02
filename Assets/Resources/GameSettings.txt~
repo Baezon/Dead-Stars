@@ -1,0 +1,62 @@
+{"SystemNames":
+	{"firsthalf":["Alpha", "Beta", "Gamma", "Delta", "Epsilon", "Zeta", "Eta", "Theta", "Kappa", "Lambda", "Rho", "Sigma", "Tau", "Upsilon", "Phi"],
+	"secondhalf":["Centauri", "Ceti", "Serpentis", "Pictoris", "Pegasi", "Cygni", "Aurigae", "Carinae", "Draconis", "Velorum", "Tauri", "Cancri",
+		"Antilae", "Cephei", "Corvi", "Eridani", "Hydrae", "Reticuli", "Sagittae", "Scorpii", "Sculptoris", "Virginis", "Trianguli"],
+	"alone":["Altair", "Capella", "Arcturus", "Sirius", "Procyon", "Achernar", "Acrux", "Adhara", "Aldebaran", "Algol", "Antares", "Arrakis",
+		"Canopus", "Castor", "Deneb", "Etamin", "Mizar", "Polaris", "Regulus", "Rigel", "Terebellum", "Vega", "Spica", "Procyon", "Pollux", "Betelgeuse",
+		"Acamar", "Albireo", "Alcyone", "Alderamin", "Algenib", "Alioth", "Alkaid", "Alphard", "Atria", "Avior", "Bellatrix", "Caph", "Cor Caroli",
+		"Diphda", "Dubhe", "Elnath", "Eltanin", "Fomalhaut", "Gacrux", "Hadar", "Hamal", "Kocab", "Icarus", "Borealis", "Merak", "Miaplacidus", "Mimosa",
+		"Mirach", "Pegasus", "Ruchbach", "Sabik", "Scheat", "Seginus", "Sheratan", "Hyades", "Wezen", "Puppis", "Pyxis", "Pictor", "Phoenix", "Reticulum",
+		"Scorpius", "Sculptor", "Scutum", "Serpens", "Sextans", "Volans", "Aquila", "Apus", "Auriga", "Bootes", "Caselum", "Cassiopeia", "Cepheus",
+		"Cetus", "Corvus", "Cygnus", "Delphinus", "Draco", "Eridanus", "Fornax", "Hydra", "Lacerta", "Lynx", "Lyra", "Musca", "Octans", "Ophiuchus",
+		"Perseus", "Sagitta", "Carina", "Circinus", "Crux", "Equuleus", "Hercules", "Aquarius", "Aries", "Cancer", "Capricornus", "Gemini", "Leo",
+		"Libra", "Orion", "Pisces", "Scorpius", "Taurus", "Virgo", "Triangulum"]
+		},
+"EmpireList": ["Autocracy","Republic","Sovereignty","Imperium","Conglomerate"],
+"Empires" :
+	{"Autocracy":
+		{"Color": [255,255,255],
+		"PrefixName": "A",
+		"Adjectival" : "Autocratic",
+		"ShipNames":
+			{"Capital": ["Isis","Hathor","Osiris","Thoth","Anubis","Ma'at","Amun","Bastet","Seth","Ra","Sekhmet","Horus","Freya","Idun","Sif","Hel","Tyr","Heimdall","Vidar","Bragi","Thor","Odin","Loki","Amaterasu","Apollo","Bacchus","Ceres","Juno","Jupiter","Mars","Mercury","Minerva","Neptune","Pluto","Saturn","Uranus","Venus","Vesta","Vulcan","Vishna","Shiva","Brahma","Ganesha","Kartikeya","Parvati","Lakshmi","Saraswati","Durga","Kali","Harihara"],
+			"Cruiser":null,
+			"Destroyer":null},
+		"GrowthRate":2},
+	"Republic":
+		{"Color": [0,169,0],
+		"PrefixName": "R",
+		"Adjectival" : "Republic",
+		"ShipNames":
+			{"Capital":null,
+			"Cruiser":null,
+			"Destroyer":null},
+		"GrowthRate":2.2},
+	"Sovereignty":
+		{"Color": [255,157,0],
+		"PrefixName": "S",
+		"Adjectival" : "Sovereign",
+		"ShipNames":
+			{"Capital":null,
+			"Cruiser":null,
+			"Destroyer":null},
+		"GrowthRate":1.8},
+	"Imperium":
+		{"Color": [180,0,255],
+		"PrefixName": "I",
+		"Adjectival" : "Imperial",
+		"ShipNames":
+			{"Capital":null,
+			"Cruiser":null,
+			"Destroyer":null},
+		"GrowthRate":2.1},
+	"Conglomerate":
+		{"Color": [122,183,255],
+		"PrefixName": "C",
+		"Adjectival" : "Conglomerate",
+		"ShipNames":
+			{"Capital":null,
+			"Cruiser":null,
+			"Destroyer":null},
+		"GrowthRate":1.9}}
+}

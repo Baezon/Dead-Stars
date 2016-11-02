@@ -1,0 +1,110 @@
+a = +5% size/crew,power cost
+b = -10% size/crew/power cost
+
+Weaponry
+standard weapon, dmg +10%, a
+	accuracy +10%, +5% size/crew
+	efficiency, b
+	damage resistance
+	*microwave whatever,dmg +10%, a
+		fire chance +10%
+		accuracy +10%, +5% size/crew
+		efficiency, b
+		damage resistance
+	*beam whatever, dmg +10%,a
+		spin up speed +10%
+		accuracy +10%, +5% size/crew
+		efficiency, b
+		damage resistance
+		*refractor beam
+
+Propulsion
+
+maneuver effectiveness +10%, a
+	damage resistance
+	efficiency, b
+jump acceleration +10%, a
+	damage resistance
+	efficiency, b fuel consumption -10%
+	*sprint drive -5% jump acceleration, +15% initial speed, a
+		damage resistance
+		efficiency, b
+	*marathon drive +15% jump acceleration, -5% initial speed, a
+		damage resistance
+		efficiency, b
+
+Energy
+power generation +10%, +5% size/crew
+	damage resistance
+	efficiency, -10% size/crew
+	*antimatter power plant, power generation +10%, +5% size/crew, +5% fuel consumption
+		damage resistance
+		efficiency, -10% size/crew, fuel consumption -10%
+	
+Defense
+armor hp +10%, +5% size
+	armor 
+shield hp +10%, a
+	shield efficiency b
+	damage resistance
+	shield regen +10%
+		*sustain shield +15% regen, -5% hp, a
+			shield hp +10%, a
+			efficiency, b
+			damage resistance
+	*buffer shield +15% shield hp, -5% regen, a
+		shield regen +10%, a
+		efficiency, b
+		damage resistance
+		*sun shields, hp +10%, a
+			regen +10%
+			efficiency, b
+			damage resistance
+	
+Electronics
+targeting range +50%
+	*NWACs +10% accuracy bonus, a
+		damage resistance
+		efficiency, b
+		*ECM +10% ecm effect, a
+			damage resistance
+			efficiency b
+			ecm targets +10%, a
+			jump charge speed +1 minute, a
+				*Interdictor +10% targets, a
+					damage resistance
+					efficiency b
+			shield recharge -20%, a
+			*ECCM -20% ecm effect, a
+				damage resistance
+				efficiency b
+				
+Structure
+ship build time -3%
+	destroyer -5%
+	cruiser	-5%
+	capital	-5%
+ship construction cost -3%
+	destroyer -5%
+	cruiser -5%
+	capital -5%
+fuel storage +10%
+
+Fightercraft
+hangar +1 wing, a
+	damage resistance
+	efficiency, -10% size/crew, -10% power cost
+	interceptor dmg +10%, hangar  a
+		toughness +10%, hangar a
+		vs fighter dmg +5%, hangar a
+			*Dogfighter
+		vs bomber dmg +5%, hangar a
+		vs capital dmg +5%, hangar a
+			*Heavy Fighter
+			(leads to Fighter-Bomber)
+	Torpedo bomber dmg +10%, hangar a
+		toughness +10%, hangar a
+		vs fighter dmg +5%, hangar a
+			(leads to Fighter-Bomber)
+		vs bomber dmg +5%, hangar a
+		vs capital dmg +5%, hangar a

@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UI Scripts\Selection.cs">
+    <Files>
+      <File FileName="Assets\Scripts\UI Scripts\Selection.cs" Line="34" Column="67" />
+      <File FileName="Assets\NewBehaviourScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UI Scripts\SelectionDropdown.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Entity.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\System Scripts\Planet.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\System Scripts\CBodyObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\System Scripts\BellCurve.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Shpip.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Prefabs.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
